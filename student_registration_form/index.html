@@ -1,0 +1,151 @@
+<!-- Document type declaration -->
+<!DOCTYPE html>
+
+<!-- HTML document structure -->
+<html lang="en">
+<!-- Head section -->
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- Character encoding -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Compatibility mode for Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Responsive design -->
+    <title>Student Registration Form</title>
+    <!-- Page title -->
+
+    <!-- CSS styles -->
+    <style>
+        /* Remove border from fieldset elements */
+        fieldset {
+            border: none;
+        }
+    </style>
+</head>
+
+<!-- Body section -->
+
+<body>
+    <!-- Center the form horizontally -->
+    <center>
+        <!-- Form element with post method and no action (will submit to same page) -->
+        <form action="" method="post" style="background-color: silver; width: 800px; height: auto">
+            <br />
+            <!-- Form title -->
+            <h3>Student Registration Form</h3>
+            <br />
+
+            <!-- Fieldset for first name -->
+            <fieldset>
+                <label for="name">First Name</label> <br />
+                <input type="text" name="name" id="name" required />
+            </fieldset>
+
+            <!-- Fieldset for last name -->
+            <fieldset>
+                <label for="last_name">Last Name</label> <br />
+                <input type="text" name="last_name" id="last_name" required />
+            </fieldset>
+
+            <!-- Fieldset for father's name -->
+            <fieldset>
+                <label for="father_name">Father Name</label> <br />
+                <input type="text" name="father_name" id="father_name" required />
+            </fieldset>
+
+            <!-- Fieldset for address -->
+            <fieldset>
+                <label for="address">Address</label> <br />
+                <input type="text" name="address" id="address" />
+            </fieldset>
+
+            <!-- Fieldset for gender -->
+            <fieldset>
+                <p>Gender</p>
+                <input type="radio" name="gender" id="male" value="male" />
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female" />
+                <label for="female">Female</label>
+            </fieldset>
+
+            <!-- Fieldset for city -->
+            <fieldset>
+                <label for="city">City</label>
+                <br />
+                <select name="city" id="city" required>
+                    <option value="" selected>Select----</option>
+                    <option value="">City 1</option>
+                    <option value="">City 2</option>
+                    <option value="">City 3</option>
+                </select>
+            </fieldset>
+
+            <!-- Fieldset for course -->
+            <fieldset>
+                <label for="course">Course</label>
+                <br />
+                <select name="course" id="course" required>
+                    <option value="" selected>Select----</option>
+                    <option value="">Course 1</option>
+                    <option value="">Course 2</option>
+                    <option value="">Course 3</option>
+                    <option value="">Course 4</option>
+                    <option value="">Course 5</option>
+                </select>
+            </fieldset>
+
+            <!-- Fieldset for state -->
+            <fieldset>
+                <label for="state">State</label>
+                <br />
+                <select name="state" id="state" required>
+                    <option value="" selected>Select----</option>
+                    <option value="">State 1</option>
+                    <option value="">State 2</option>
+                    <option value="">State 3</option>
+                    <option value="">State 4</option>
+                    <option value="">State 5</option>
+                    <option value="">State 6</option>
+                    <option value="">State 7</option>
+                    <option value="">State 8</option>
+                    <option value="">State 9</option>
+                    <option value="">State 10</option>
+                </select>
+            </fieldset>
+
+            <!-- Fieldset for district -->
+            <fieldset>
+                <label for="district">District</label>
+                <br />
+                <select name="district" id="district" required>
+                    <option value="" selected>Select----</option>
+                    <option value="">District 1</option>
+                    <option value="">District 2</option>
+                    <option value="">District 3</option>
+                </select>
+            </fieldset>
+
+            <!-- Fieldset for pin code -->
+            <fieldset>
+                <label for="pin_code">Pin Code</label><br />
+                <input type="number" name="pin_code" id="pin_code" required />
+            </fieldset>
+
+            <!-- Fieldset for student email -->
+            <fieldset>
+                <label for="student_email">Student Email</label><br />
+                <input type="email" name="student_email" id="student_email" required />
+            </fieldset>
+
+            <br />
+            <!-- Submit button -->
+            <button type="submit" style="height: 30px; width: 70px">
+                Send
+            </button>
+            <br /><br />
+        </form>
+    </center>
+</body>
+
+</html>
