@@ -2,7 +2,7 @@
 
 # დავალება 2.1: ცხრილებთან მუშაობა HTML-ში
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-purple)](https://tbabl.github.io/it-academy-step-georgia-frontend-2022/assignment_02/tables/index.html)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-purple)](https://tbabl.github.io/it-academy-step-georgia-frontend-2022/assignment_02/tables/)
 
 ## აღწერა
 
@@ -12,7 +12,7 @@
   - **ცხრილი 1:** დამფუძნებლები და მათი ხელფასები
   - **ცხრილი 2:** სემინარის განრიგი
 
-> [!შენიშვნა]
+> [!NOTE]
 > გვერდი არ არის ოპტიმიზირებული მობილური მოწყობილობებისთვის. საუკეთესო გამოცდილებისთვის გამოიყენეთ დესკტოპ ბრაუზერი.
 
 ## მოთხოვნები

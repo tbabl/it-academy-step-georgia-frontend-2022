@@ -2,7 +2,7 @@
 
 # Assignment 2.1: Working with Forms in HTML - Student Registration Form
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-purple)](https://tbabl.github.io/it-academy-step-georgia-frontend-2022/assignment_02/student_registration_form/index.html)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-purple)](https://tbabl.github.io/it-academy-step-georgia-frontend-2022/assignment_02/student_registration_form/)
 
 ## Description
 

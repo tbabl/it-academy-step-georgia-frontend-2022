@@ -2,7 +2,7 @@
 
 # დავალება 2.1: HTML ფორმებთან მუშაობა - სტუდენტთა რეგისტრაციის ფორმა
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-purple)](https://tbabl.github.io/it-academy-step-georgia-frontend-2022/assignment_2/working_on_forms/index.html)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-purple)](https://tbabl.github.io/it-academy-step-georgia-frontend-2022/assignment_02/student_registration_form/)
 
 ## აღწერა
 
